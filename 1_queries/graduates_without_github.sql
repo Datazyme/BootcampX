@@ -7,7 +7,7 @@ WHERE github IS NULL
 AND end_date IS NOT NULL;
 
 -- expected result
-vagrant=# \i 1_queries/graduates_without_github.sql 
+-- vagrant=# \i 1_queries/graduates_without_github.sql 
 --        name        |             email             |    phone     
 -- -------------------+-------------------------------+--------------
 --  Herminia Smitham  | sawayn.sarina@yahoo.com       | 778-251-5094
